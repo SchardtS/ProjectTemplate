@@ -22,8 +22,7 @@
 ### Initial Cell Distribution
 - `nofClusters = 100`                                     (Number of initial cell clusters)
 - `pos = np.random.uniform(-60, 60, [nofClusters, 2])`    (Uniformly distributed cell positions) (IF REALLY NEEDED INCLUDE SEED HERE!!!)
-- `r = np.random.normal(0.8, 0.01, nofClusters)`          (Randomly distributed cell radii) (IF REALLY NEEDED INCLUDE SEED HERE!!!)
+- `r = np.random.normal(0.8, 0.01, nofClusters)`          (Normally distributed cell radii) (IF REALLY NEEDED INCLUDE SEED HERE!!!)
 
 ## Additional Notes
 - Related Publication: https://opus.bibliothek.uni-wuerzburg.de/opus4-wuerzburg/frontdoor/deliver/index/docId/30194/file/schardt_simon_organoid_modeling.pdf
-- 
