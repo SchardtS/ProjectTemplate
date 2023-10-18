@@ -1,0 +1,21 @@
+def plot_cell_numbers(df):
+    Times, Cells = find_cell_numbers(df)
+    Cell_Increments = calculate_cell_number_increments(Cells)
+
+    color1 = 'tab:red'
+    color2 = 'tab:blue'
+
+    plt.figure(figsize=(10, 6))
+    plt.plot(Times, Cells, label='Cells', color=color1)
+    plt.ylabel('cell number', color=color1, fontsize=14)
+    plt.yticks(color=color1, fontsize=14)
+    plt.xlabel('time', fontsize=14)
+
+    plt.twinx()
+    plt.plot(Times, Cell_Increments, label='Cell Increments', color=color2)
+    plt.ylabel('cell number increments', color=color2, fontsize=14)
+    plt.yticks(color=color2, fontsize=14)
+
+    plt.plot
+
+    return
