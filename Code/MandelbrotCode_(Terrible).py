@@ -1,7 +1,7 @@
 import numpy
 import matplotlib.pyplot
 
-def mandelbrot(A, B):
+def calculate(A, B):
 
     C = A[None,:] + B[:,None] * 1j
 
@@ -15,9 +15,9 @@ def mandelbrot(A, B):
 
     return D, C
 
-def plot_mandelbrot(A, B):
+def plot(A, B):
    
-    D, C = mandelbrot(A, B)
+    D, C = calculate(A, B)
 
     E = abs(C) < 1e3
     D[E] = 0
@@ -36,4 +36,4 @@ def plot_mandelbrot(A, B):
 p1 = numpy.linspace(-2.4,1.4,2000)
 p2 = numpy.linspace(-1.2,1.2,1000)
 
-plot_mandelbrot(p1, p2)
+plot(p1, p2)
