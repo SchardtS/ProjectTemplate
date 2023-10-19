@@ -1,11 +1,11 @@
 # Fdb version 4
-["pdflatex"] 1697634573 "c:/Users/sis46cn/Desktop/ProjectTemplate/Manuscript/main.tex" "main.pdf" "main" 1697634576 0
-  "../Results/Figures/CellClusters_T=0.pdf" 1697631038 19718 72927b3b3a8603fd9cf0d79804e7333c ""
-  "../Results/Figures/CellClusters_T=24.pdf" 1697631040 35858 1c5d0433cfca492f627af84dfb4fbe76 ""
-  "../Results/Figures/CellClusters_T=48.pdf" 1697631044 62752 59319bf1e2fd61ced7689c84bc2a2c72 ""
-  "../Results/Figures/CellClusters_T=72.pdf" 1697631050 110209 a564edca48fb67fe948f0877aa5dabbf ""
-  "../Results/Figures/CellNumbers.pdf" 1697631036 11022 498d3b021903114289a65525685aa918 ""
-  "../Results/Figures/Mandelbrot.pdf" 1697550849 65548 3ee6b24a959b84f51ae050d493f8e98f ""
+["pdflatex"] 1697696358 "c:/Users/sis46cn/Desktop/ProjectTemplate/Manuscript/main.tex" "main.pdf" "main" 1697696362 0
+  "../Results/Figures/CellClusters_T=0.pdf" 1697696357 19681 6dbe783f23301e7edb4b5250a5691804 ""
+  "../Results/Figures/CellClusters_T=24.pdf" 1697696357 35906 2ebba825d391f001b0404928180c4da8 ""
+  "../Results/Figures/CellClusters_T=48.pdf" 1697696357 62910 2513c907f2ec7c8043defc5708d85ae4 ""
+  "../Results/Figures/CellClusters_T=72.pdf" 1697696358 110435 44ad0a063cbd4a086f516900e27fcb08 ""
+  "../Results/Figures/CellNumbers.pdf" 1697696357 10948 ff5a861cfcddcebc80d47d532dae88cf ""
+  "../Results/Figures/Mandelbrot.pdf" 1697640857 65548 3ee6b24a959b84f51ae050d493f8e98f ""
   "c:/Users/sis46cn/Desktop/ProjectTemplate/Manuscript/main.tex" 1697634572 4648 41fcebc1c812b33c69a5ce6f32cbdb66 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1696252985 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1696251330 1004 54797486969f23fa377b128694d548df ""
@@ -200,8 +200,8 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1696257069 4721891 a1ad6110735ab1e410b2de96572ab420 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1696257338 8183502 6ed7084c329a7898cebe0e7233b983ea ""
   "c:/texlive/2023/texmf.cnf" 1696257032 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1697634576 1989 6c59617ea4cd2871ead32269fc4a162a "pdflatex"
-  "main.out" 1697634576 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.aux" 1697696362 1989 6c59617ea4cd2871ead32269fc4a162a "pdflatex"
+  "main.out" 1697696362 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.tex" 1697634572 4648 41fcebc1c812b33c69a5ce6f32cbdb66 ""
   (generated)
   "main.aux"

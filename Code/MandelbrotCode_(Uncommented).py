@@ -30,8 +30,8 @@ def plot_mandelbrot(X, Y):
     plt.figure(figsize=(size_x, size_y))
     plt.imshow(iter_counts, cmap='magma', extent=[X.min(), X.max(), Y.min(), Y.max()])
     
-    plt.savefig('Results/Figures/Mandelbrot.png', facecolor=None)
-    plt.savefig('Results/Figures/Mandelbrot.pdf', facecolor=None)
+    plt.savefig('Results/Figures/Mandelbrot.png')
+    plt.savefig('Results/Figures/Mandelbrot.pdf')
 
     return
 

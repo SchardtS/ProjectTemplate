@@ -72,8 +72,8 @@ def plot_mandelbrot(X, Y):
     plt.imshow(iter_counts, cmap='magma', extent=[X.min(), X.max(), Y.min(), Y.max()])
     
     # Save the plot as .png and .pdf files
-    plt.savefig('Results/Figures/Mandelbrot.png', facecolor=None)
-    plt.savefig('Results/Figures/Mandelbrot.pdf', facecolor=None)
+    plt.savefig('Results/Figures/Mandelbrot.png')
+    plt.savefig('Results/Figures/Mandelbrot.pdf')
 
     # Return None
     return

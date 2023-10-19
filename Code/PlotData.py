@@ -37,8 +37,8 @@ def plot_cell_numbers(file):
     plt.yticks(color=color2, fontsize=14)
 
     # Save the figure as a PDF and PNG file
-    plt.savefig('Results/Figures/CellNumbers.pdf', dpi=300, bbox_inches='tight', facecolor=None)
-    plt.savefig('Results/Figures/CellNumbers.png', dpi=300, bbox_inches='tight', facecolor=None)
+    plt.savefig('Results/Figures/CellNumbers.pdf')
+    plt.savefig('Results/Figures/CellNumbers.png')
 
     return
 
@@ -99,8 +99,8 @@ def plot_cell_clusters_at_timestep(file, timestep):
     plt.axis('off')
 
     # Save the figure as a PDF and PNG file
-    plt.savefig('Results/Figures/CellClusters_T=' + str(timestep) + '.pdf', dpi=300, bbox_inches='tight', transparent=True)
-    plt.savefig('Results/Figures/CellClusters_T=' + str(timestep) + '.png', dpi=300, bbox_inches='tight', transparent=True)
+    plt.savefig('Results/Figures/CellClusters_T=' + str(timestep) + '.pdf')
+    plt.savefig('Results/Figures/CellClusters_T=' + str(timestep) + '.png')
 
     return
 
