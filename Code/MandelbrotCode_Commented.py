@@ -14,7 +14,7 @@ def mandelbrot(X, Y):
 
     Returns
     -------
-    T : numpy.ndarray
+    iter_counts : numpy.ndarray
         A 2D array of iteration counts for each point in the complex plane.
     Z : numpy.ndarray
         A 2D array of final values for each point in the complex plane.
