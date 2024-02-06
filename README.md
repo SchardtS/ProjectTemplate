@@ -51,6 +51,9 @@ You can also try to visualize your source code in a dependency graph, to see whi
         C(function2) --> B
         D(function3) --> B
         E(function4) --> A
+        F(function5) --> B
+        F --> C
+        F --> E
 ```
 
 ## Getting Started
