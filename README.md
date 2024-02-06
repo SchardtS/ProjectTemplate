@@ -47,7 +47,7 @@ Our project is organized into the following directories:
 You can also try to visualize your source code in a dependency graph, to see which function depends on which.
 ```mermaid
     graph LR
-        id1(Working on project) ---> id2(Push to git)
+        A(main()) <-- B(function1())
         id2 ---> id3(Update documentation)
         id3 ---> id1
         id3 -.-> id2
