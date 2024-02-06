@@ -44,6 +44,15 @@ Our project is organized into the following directories:
 - **Results**: Contains images, processed data, and anything else related to results.
 - **Manuscript (optional)**: Used for preparing theses or other forms of publications.
 
+You can also try to visualize your source code in a dependency graph, to see which function depends on which.
+```mermaid
+    graph LR
+        id1(Working on project) ---> id2(Push to git)
+        id2 ---> id3(Update documentation)
+        id3 ---> id1
+        id3 -.-> id2
+```
+
 ## Getting Started
 
 In this section, you want to get into more detail concerning the structure of your code and how to use it. If there is some `main` function or script, then explain how to use it properly to run your code. For this project itself, most codes are independent of each other so you can run them in any order you want.
