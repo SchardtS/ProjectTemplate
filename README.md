@@ -35,6 +35,21 @@ Put the `requirements.txt` file in you repo so anyone can easily install all of 
 pip install -r requirements.txt
 ````
 
+## Fetching Data too large for GitHub
+
+You can use platforms like [Zenodo](https://zenodo.org/) to upload and manage your data if it exceeds GitHub's maximum file size. Be sure to include a download link for your data in the README or provide a script with which you can download the data and extract it into the correct directory. An example of this would be
+````python
+import requests
+import zipfile
+import io
+
+url = 'insert_your_download_url_here'
+r = requests.get(url)
+
+z = zipfile.ZipFile(io.BytesIO(r.content))
+z.extractall("Data/")
+````
+
 ## Project Structure
 
 Our project is organized into the following directories:
