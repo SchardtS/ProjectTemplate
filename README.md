@@ -47,10 +47,10 @@ Our project is organized into the following directories:
 You can also try to visualize your source code in a dependency graph, to see which function depends on which.
 ```mermaid
     graph LR
-        A(main) --> B(function1())
-        id2 --> id3(Update documentation)
-        id3 --> id1
-        id3 --> id2
+        B(function1) --> A(main)
+        C(function2) --> B
+        D(function3) --> B
+        E(function4) --> A
 ```
 
 ## Getting Started
