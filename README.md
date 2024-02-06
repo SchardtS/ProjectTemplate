@@ -50,6 +50,9 @@ z = zipfile.ZipFile(io.BytesIO(r.content))
 z.extractall("Data/")
 ````
 
+Be sure to include the data into your .gitignore file.
+
+
 ## Project Structure
 
 Our project is organized into the following directories:
