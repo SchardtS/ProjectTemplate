@@ -60,7 +60,7 @@ Our project is organized into the following directories:
 - **Code**: Contains all Python/Julia/R/... scripts used in the project.
 - **Data**: Includes raw input data required for the project, if their size is reasonable.
 - **Results**: Contains images, processed data, and anything else related to results.
-- **Manuscript (optional)**: Used for preparing theses or other forms of publications.
+- **Communication (optional)**: Used for preparing theses or other forms of publications (posters, report, etc.).
 
 You can also try to visualize your source code in a dependency graph, to see which function depends on which.
 ```mermaid
